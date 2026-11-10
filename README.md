@@ -4,7 +4,7 @@
 
 | Laborator | Unde se află codul |
 |---|---|
-| Lab 6 — Informații invizibile: forensics și steganografie | `arsenal/forensics/` (Lucrarea A: decoder), `forensics.py`, `stego.py`, `challenge.py` (Lucrarea B), `teste/`, `probe/`, `stego.png` |
+| Lab 6 — Informații invizibile: forensics și steganografie | `arsenal/forensics/` (Lucrarea A: decoder), `forensics.py`, `stego.py` (Lucrarea B), `teste/`, `probe/`, `stego.png` |
 | Laborator Python — funcții, metode și importuri pe web | `web_lab/` (`webtools.py`, `main.py`, `report.csv`, `report.json`) |
 
 ## Rapoarte
