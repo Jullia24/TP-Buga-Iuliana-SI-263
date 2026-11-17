@@ -72,3 +72,7 @@ def main():
     with open("arsenal/lab8/enum.json", "w", encoding="utf-8") as f:
         json.dump(raport, f, indent=2, ensure_ascii=False)
     print("Raport salvat in enum.json")
+
+
+if __name__ == "__main__":
+    main()
