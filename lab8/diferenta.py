@@ -1,10 +1,10 @@
-from arsenal.lab8.enumerare import citeste_linii, nume, GTFO
+from lab8.enumerare import citeste_linii, nume, GTFO
 
 def cai(fisier):
     return set(citeste_linii(fisier))
 
-baza = cai("arsenal/lab8/start/baza_suid.txt")
-acum = cai("arsenal/lab8/start/suid.txt")
+baza = cai("lab8/start/baza_suid.txt")
+acum = cai("lab8/start/suid.txt")
 print(f"baza: {len(baza)}  acum: {len(acum)}")
 
 noi = acum - baza
