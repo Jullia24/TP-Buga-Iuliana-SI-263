@@ -28,11 +28,6 @@ def scaneaza(folder):
             rez.append(amprenta_fisier(cale))
     return rez
 
-def amprente_lenes(folder):
-    for nume in sorted(os.listdir(folder)):
-        cale = os.path.join(folder, nume)
-        if os.path.isfile(cale):
-            yield amprenta_fisier(cale)
 
 def main():
     parser = argparse.ArgumentParser()
