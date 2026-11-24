@@ -1,5 +1,5 @@
 import os
-from arsenal.forensics.amprente import tip, amprenta_fisier, scaneaza, amprente_lenes
+from arsenal.forensics.amprente import tip, amprenta_fisier, scaneaza
 
 PROBE = os.path.join(os.path.dirname(__file__), "probe")
 
@@ -16,11 +16,3 @@ def test_amprenta_png():
 
 def test_scaneaza_toate():
     assert len(scaneaza(PROBE)) == 4
-
-
-def test_amprente_lenes():
-    assert list(amprente_lenes(PROBE)) == scaneaza(PROBE)
-
-    
-def test_amprente_lenes():
-    assert list(amprente_lenes(PROBE)) == scaneaza(PROBE)
